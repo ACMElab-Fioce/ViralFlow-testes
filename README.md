@@ -9,3 +9,13 @@ for file in $(find ./ -type f -name "*.fasta"); do     output="${file%.fasta}.ou
 ## Rodar scripts:
 - chmod +x "script.sh"
 - ./"script.sh"
+
+## Nomenclatura das pastas:
+- RESULTS_1_viralflow1
+- RESULTS_2_viralflow1
+- RESULTS_3_viralflow1
+
+- RESULTS_1_viralflow006
+- RESULTS_2_viralflow006
+- RESULTS_3_viralflow006
+
