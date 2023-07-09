@@ -25,5 +25,7 @@ for file in $(find ./ -type f -name "*.fasta"); do     output="${file%.fasta}.ou
 
 
 ## ViralFlow 1.0 (AWS Cloud9 - 8Gb RAM)
+![image](https://github.com/ACMElab-Fioce/ViralFlow-testes/assets/98467661/0736bd87-4051-485d-8320-2b28965df26b)
+
 
 
