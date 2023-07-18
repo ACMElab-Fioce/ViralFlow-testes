@@ -2,6 +2,7 @@
 
 
 ## Testes ART
+- Comando utilizado para separar um FASTA em vários: awk '/^>/{filename=sprintf("output_%d.fasta",++count)} {print > filename}' seu_arquivo.fasta
 - Comando utilizado para executar em loop o ART:
 for file in $(find ./ -type f -name "*.fasta"); do     output="${file%.fasta}.output";     art_illumina -ss HS25 -sam -i "$file" -p -l 150 -f 500 -m 200 -s 0 -o "$output"; done
 
